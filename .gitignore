@@ -1,2 +1,5 @@
 .sass-cache/
 *.css.map
+dev/node_modules/
+dev/bower_components/
+_Sources/

@@ -1,0 +1,31 @@
+{
+  "name": "rovichmaharjan.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio Website of Rovich Maharjan",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rovichmaharjan/rovichmaharjan.github.io.git"
+  },
+  "keywords": [
+    "rovich",
+    "maharjan",
+    "portfolio",
+    "web designer",
+    "ui",
+    "ux",
+    "front end developer"
+  ],
+  "author": "Rovich Maharjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rovichmaharjan/rovichmaharjan.github.io/issues"
+  },
+  "homepage": "https://github.com/rovichmaharjan/rovichmaharjan.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
