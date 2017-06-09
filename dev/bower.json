@@ -1,0 +1,30 @@
+{
+  "name": "rovichmaharjan",
+  "description": "Portfolio Website of Rovich Maharjan",
+  "main": "index.html",
+  "authors": [
+    "Rovich Maharjan"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "rovich",
+    "maharjan",
+    "portfolio",
+    "web",
+    "designer",
+    "ui",
+    "ux",
+    "front",
+    "end",
+    "developer"
+  ],
+  "homepage": "https://rovichmaharjan.github.io/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

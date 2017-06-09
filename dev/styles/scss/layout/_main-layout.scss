@@ -1,0 +1,22 @@
+body {
+  overflow: hidden;
+  @include svg_bg(bg);
+  min-height: 300px;
+  min-width: 300px;
+}
+
+.rm__title {
+  width: 100vmin;
+}
+
+.rm__pic_wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  @include size(35vmin);
+
+  .rm__pic {
+    width: auto;
+    height: 100%;
+  }
+}

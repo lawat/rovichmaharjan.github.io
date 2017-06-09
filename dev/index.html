@@ -6,8 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link href="favicon.ico" rel="icon" type="image/x-icon" />
   <title>Rovich Maharjan</title>
+
+  <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
-  <img src="img_vect/my_pic.png" alt="Rovich Maharjan" class="rm__pic"/>
+  
+  <div class="rm__title">
+    <picture>
+      <source srcset="img_vect/title.svg" type="image/svg+xml"/>
+      <img src="img_vect/title.png" alt="Rovich Maharjan" />
+    </picture>
+  </div>
+
+  <aside class="rm__pic_wrapper">
+    <img src="img_vect/my_pic.png" alt="Rovich Maharjan" class="rm__pic"/>
+  </aside>
 </body>
 </html>
