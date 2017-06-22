@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
 body {
   overflow: hidden;
   @include svg_bg(bg);
@@ -7,6 +15,8 @@ body {
 
 .rm__title {
   width: 100vmin;
+  max-width: 80vw;
+  padding-left: 10vw;
 }
 
 .rm__pic_wrapper {
@@ -14,9 +24,52 @@ body {
   left: 0;
   bottom: 0;
   @include size(35vmin);
+  overflow: hidden;
 
   .rm__pic {
     width: auto;
     height: 100%;
+  }
+}
+
+.rm__scrollable_content {
+  display: flex;
+  align-items: center;
+  width: 500vw;
+  position: relative;
+  padding-top: 2vh;
+  transition: all 0.25s ease-in-out;
+}
+
+.rm__intro {
+  width: 20vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.rm__showcase {
+  @include size(40vw, 40vh);
+  margin-left: 4vw;
+  margin-right: 4vw;
+  overflow: hidden;
+  object-fit: cover;
+  background-color: #FFFFFF;
+  border: 10px solid $border_color;
+  box-shadow: -2.5px 5px 10px transparentize($shadow_color, 0.85);
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &.main {
+    @include size(60vw, 60vh);
+    box-shadow: -10px 20px 40px transparentize($shadow_color, 0.9);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 }

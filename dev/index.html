@@ -11,16 +11,38 @@
   <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
-  
-  <div class="rm__title">
+
+  <header class="rm__title">
     <picture>
       <source srcset="img_vect/title.svg" type="image/svg+xml"/>
       <img src="img_vect/title.png" alt="Rovich Maharjan" />
     </picture>
-  </div>
+  </header>
+
+  <main class="rm__scrollable_content">
+    <div class="rm__intro">
+      <picture>
+        <source srcset="img_vect/intro.svg" type="image/svg+xml"/>
+        <img src="img_vect/intro.png" srcset="img_vect/intro.png@2x" alt="Rovich Maharjan" />
+      </picture>
+    </div>
+    <div class="rm__showcase main">
+      <img src="img_vect/sc__bag_inventory.jpg" alt="Showcase - Mobile App - Bag Inventory">
+    </div>
+    <div class="rm__showcase">
+      <img src="img_vect/sc__admin_dark.png" alt="Showcase - Admin Panel - Dark Theme">
+    </div>
+    <div class="rm__showcase">
+      <img src="img_vect/sc__admin_light.png" alt="Showcase - Admin Panel - Light Theme">
+    </div>
+  </main>
 
   <aside class="rm__pic_wrapper">
     <img src="img_vect/my_pic.png" alt="Rovich Maharjan" class="rm__pic"/>
   </aside>
+
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="scripts/scripts.js"></script>    
+
 </body>
 </html>
